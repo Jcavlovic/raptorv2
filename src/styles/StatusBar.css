@@ -1,22 +1,29 @@
 .statusbar {
-    background-color: #5e5c5c;
-    border-radius: 10px;
-    border: 2px solid black;
-    margin-top: 10px;
-    top: -1144px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    max-width: 350px;
-    left: 1931px;
-    color: white;
-    height: 876px;
+  background-color: #5e5c5c;
+  border-radius: 10px;
+  border: 3px solid black;
+  max-width: 350px;
+  color: white;
+  height: 876px;
+  margin-left: 85%;
+  margin-top: -40%;
+  position: sticky;
+
   }
   .foundlist {
     position: relative;
-    right: -100px;
+    right: -65px;
+    font-size: 35px;
+    top: -69px;
+    list-style-type: symbols;
   }
+
   .statusbarTitle {
     position: relative;
-    left: 75px;
+    font-size: 50px;
+    top: -35px;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px;
+    background-color: darkblue;
+    border-bottom: 3px solid black;
   }

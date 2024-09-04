@@ -6,10 +6,26 @@ const StatusBar = () => {
     { item: "Life Raft", time: "00:00:00" },
     { item: "Life Raft", time: "00:00:00" },
     { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
   ];
   return (
     <div className="statusbar">
-      <h1 className="statusbarTitle">Found Objects</h1>
+      <h1 className="statusbarTitle"> &ensp;Found Objects</h1>
       {itemsFound.map((itemFound) => (
         <li className="foundlist">
           {" "}
