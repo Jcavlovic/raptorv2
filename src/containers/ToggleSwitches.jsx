@@ -1,11 +1,11 @@
 import { useState } from "react";
 import React from "react";
 
-// const [toggles, setToggles] = useState([
-//   { id: 1, text: "Life Raft", isChecked: false },
-//   { id: 2, text: "Life Jacket", isChecked: false },
-//   { id: 3, text: "Life Ring", isChecked: false },
-// ]);
+const [toggles, setToggles] = useState([
+  { id: 1, text: "Life Raft", isChecked: false },
+  { id: 2, text: "Life Jacket", isChecked: false },
+  { id: 3, text: "Life Ring", isChecked: false },
+]);
 
 const ToggleSwitches = () => {
   const items = ["Life Raft", "Life Jacket", "Life Ring"];
