@@ -1,12 +1,6 @@
 import { useState } from "react";
 import React from "react";
 
-const [toggles, setToggles] = useState([
-  { id: 1, text: "Life Raft", isChecked: false },
-  { id: 2, text: "Life Jacket", isChecked: false },
-  { id: 3, text: "Life Ring", isChecked: false },
-]);
-
 const ToggleSwitches = () => {
   const items = ["Life Raft", "Life Jacket", "Life Ring"];
 
@@ -14,14 +8,20 @@ const ToggleSwitches = () => {
     <div className="ToggleSwitches">
       <h1>Items</h1>
       {items.map((item, index) => (
-        <ToggleSwitch key={`${item}${index}`} />
+        <ToggleSwitch
+          key={`${item}${index}`}
+          divClassName="switch_child"
+          labelClassName="switch"
+          textClassName="switch_text"
+          text={item}
+        />
       ))}
     </div>
   );
 };
 
 const ToggleSwitch = ({ divClassName, labelClassName, text }) => {
-  const [{ isChecked }, setIsChecked] = useState(false);
+  const [isChecked, setIsChecked] = useState(false);
 
   const handleToggle = () => {
     setIsChecked((isChecked) => !isChecked);
@@ -33,14 +33,10 @@ const ToggleSwitch = ({ divClassName, labelClassName, text }) => {
   };
 
   return (
-    <div key={text} className="switch_child">
+    <div key={text} className={divClassName}>
       <h3>{text}</h3>
-      <label className="switch">
-        <input
-          type="checkbox"
-          defaultChecked={isChecked}
-          onClick={handleToggle}
-        />
+      <label className={labelClassName}>
+        <input type="checkbox" checked={isChecked} onClick={handleToggle} />
         <span className="slider round"></span>
       </label>
     </div>
