@@ -48,20 +48,14 @@ const ToggleSwitches = () => {
     <div className="ToggleSwitches">
       <h1>Items</h1>
       {items.map((item, index) => (
-        <ToggleSwitch
-          key={`${item}${index}`}
-          divClassName="switch_child"
-          labelClassName="switch"
-          textClassName="switch_text"
-          text={item}
-        />
+        <ToggleSwitch key={`${item}${index}`} />
       ))}
     </div>
   );
 };
 
 const ToggleSwitch = ({ divClassName, labelClassName, text }) => {
-  const [isChecked, setIsChecked] = useState(false);
+  const [{ isChecked }, setIsChecked] = useState(false);
 
   const handleToggle = () => {
     setIsChecked((isChecked) => !isChecked);
@@ -73,10 +67,14 @@ const ToggleSwitch = ({ divClassName, labelClassName, text }) => {
   };
 
   return (
-    <div key={text} className={divClassName}>
+    <div key={text} className="switch_child">
       <h3>{text}</h3>
-      <label className={labelClassName}>
-        <input type="checkbox" checked={isChecked} onClick={handleToggle} />
+      <label className="switch">
+        <input
+          type="checkbox"
+          defaultChecked={isChecked}
+          onClick={handleToggle}
+        />
         <span className="slider round"></span>
       </label>
     </div>
