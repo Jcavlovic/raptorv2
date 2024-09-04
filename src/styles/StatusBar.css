@@ -1,0 +1,12 @@
+.statusbar {
+    background-color: #5e5c5c;
+    margin-top: 10px;
+    top: -1144px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 350px;
+    left: 1931px;
+    color: white;
+    height: 876px;
+  }
