@@ -1,5 +1,7 @@
 .statusbar {
     background-color: #5e5c5c;
+    border-radius: 10px;
+    border: 2px solid black;
     margin-top: 10px;
     top: -1144px;
     display: flex;
@@ -9,4 +11,12 @@
     left: 1931px;
     color: white;
     height: 876px;
+  }
+  .foundlist {
+    position: relative;
+    right: -100px;
+  }
+  .statusbarTitle {
+    position: relative;
+    left: 75px;
   }

@@ -1,12 +1,21 @@
 import React from "react";
 
 const StatusBar = () => {
+  const itemsFound = [
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+    { item: "Life Raft", time: "00:00:00" },
+  ];
   return (
     <div className="statusbar">
-      <h1>Status Updates</h1>
-      <li>Life Jacket Found 00:00:00</li>
-      <li>Life Jacket Found 00:00:00</li>
-      <li>Life Jacket Found 00:00:00</li>
+      <h1 className="statusbarTitle">Found Objects</h1>
+      {itemsFound.map((itemFound) => (
+        <li className="foundlist">
+          {" "}
+          {itemFound.item} {itemFound.time}
+        </li>
+      ))}
     </div>
   );
 };
