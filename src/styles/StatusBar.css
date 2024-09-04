@@ -6,24 +6,23 @@
   color: white;
   height: 876px;
   margin-left: 85%;
-  margin-top: -40%;
+  margin-top: -44%;
   position: sticky;
+}
+.foundlist {
+  position: relative;
+  right: -65px;
+  font-size: 35px;
+  top: -69px;
+  list-style-type: symbols;
+}
 
-  }
-  .foundlist {
-    position: relative;
-    right: -65px;
-    font-size: 35px;
-    top: -69px;
-    list-style-type: symbols;
-  }
-
-  .statusbarTitle {
-    position: relative;
-    font-size: 50px;
-    top: -35px;
-    border-top-left-radius: 8px;
-    border-top-right-radius:8px;
-    background-color: darkblue;
-    border-bottom: 3px solid black;
-  }
+.statusbarTitle {
+  position: relative;
+  font-size: 50px;
+  top: -35px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: darkblue;
+  border-bottom: 3px solid black;
+}

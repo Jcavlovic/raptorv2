@@ -63,6 +63,7 @@ input:checked + .slider:before {
   max-width: fit-content;
   margin-top: auto;
   margin-bottom: auto;
+  margin-left: 2%;
 }
 .switch_child {
   margin-bottom: 262px;
