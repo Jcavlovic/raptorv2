@@ -4,6 +4,7 @@
   width: 60px;
   height: 34px;
   margin-top: 10px;
+  left: 105px;
 }
 
 .switch input {
@@ -60,16 +61,42 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 .ToggleSwitches {
-  max-width: fit-content;
+  color: white;
+  background-color: #2f5e85;
+  border-radius: 10px;
+  border: 3px solid black;
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 2%;
+  margin-left: 3%;
+  max-width: fit-content;
 }
 .switch_child {
-  margin-bottom: 262px;
+  margin-bottom: 44px;
+  top: -53px;
+  position: relative;
 }
 .switch_text {
-  right: -9px;
+  right: 34px;
   position: relative;
   top: 8px;
+}
+.toggleimages {
+  max-height: 175px;
+  position: relative;
+  right: 36px;
+  top: -15px;
+  cursor: pointer;
+}
+.toggleheader {
+  font-size: 50px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: darkblue;
+  border-bottom: 3px solid black;
+  position: relative;
+  top: -36px;
+}
+.togglelabel {
+  position: relative;
+  right: -95px;
 }
