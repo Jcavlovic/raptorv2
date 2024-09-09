@@ -6,8 +6,8 @@
   color: white;
   height: 876px;
   margin-left: 85%;
-  margin-top: -35%;
-  position: sticky;
+  position: relative;
+  top: -946px;
 }
 .foundlist {
   position: relative;
