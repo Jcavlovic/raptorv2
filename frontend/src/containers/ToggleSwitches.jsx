@@ -6,19 +6,19 @@ const ToggleSwitches = () => {
     {
       id: 1,
       text: "Life Raft",
-      location: "../assets/Life_Raft.png",
+      location: "assets/Life_Raft.png",
       isChecked: false,
     },
     {
       id: 2,
       text: "Life Jacket",
-      location: "../assets/Life_Jacket.png",
+      location: "assets/Life_Jacket.png",
       isChecked: false,
     },
     {
       id: 3,
       text: "Life Ring",
-      location: "../assets/Life_Ring.png",
+      location: "assets/Life_Ring.png",
       isChecked: false,
     },
   ]);
