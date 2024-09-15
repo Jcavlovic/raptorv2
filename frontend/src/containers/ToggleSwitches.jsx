@@ -6,7 +6,7 @@ const ToggleSwitches = () => {
     {
       id: 1,
       text: "Life Raft",
-      location: "assets/Life_Raft.png",
+      location: "src/containers/assets/Life_Raft2.png",
       isChecked: false,
     },
     {
