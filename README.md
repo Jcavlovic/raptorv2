@@ -1,9 +1,10 @@
 **WORK IN PROGRESS**
 
-Raptor Vision UTSA Senior Design
--Version=2.0
--RESTfulAPI=FastAPI
--Frontend=ReactJS
+**Raptor** Vision UTSA Senior Design
+
+Version=2.0
+RESTfulAPI=FastAPI
+Frontend=ReactJS
 
 Version 1.0:
 Creators
