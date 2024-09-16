@@ -12,7 +12,6 @@
   -Frontend=ReactJS
   -Backend=Python3
     <ins>Creators</ins>
-    
       Jordan Cavlovic
       
       Alex Fust
