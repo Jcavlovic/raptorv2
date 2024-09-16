@@ -33,4 +33,5 @@ Redesigned by Jordan Cavlovic
 
 **WORK IN PROGRESS**
 
-https://github.com/Jcavlovic/raptorv2/blob/master/raptor%20preview.png
+![Alt text](https://github.com/Jcavlovic/raptorv2/blob/master/raptor%20preview.png?raw=true "Title")
+
