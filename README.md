@@ -3,16 +3,20 @@
 **Raptor** Vision UTSA Senior Design
 
 Version=2.0
-RESTfulAPI=FastAPI
-Frontend=ReactJS
+  RESTfulAPI=FastAPI
+  Frontend=ReactJS
+  Backend=Python3
 
 Version 1.0:
-Creators
-  Jordan Cavlovic
-  Alex Fust
-  Andrew Garza
-  Daniel Morales
-  Blake Zigmond
+  RESTfulAPI=FastAPI
+  Frontend=ReactJS
+  Backend=Python3
+    Creators
+      Jordan Cavlovic
+      Alex Fust
+      Andrew Garza
+      Daniel Morales
+      Blake Zigmond
   
 **WORK IN PROGRESS**
 
