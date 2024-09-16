@@ -2,6 +2,18 @@
 
 **Raptor** Vision UTSA Senior Design
 
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
+-OR-
+
+ Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
+          
 Markup : *<ins>Version=2.0</ins>
           *RESTfulAPI=FastAPI
           *Frontend=ReactJS
