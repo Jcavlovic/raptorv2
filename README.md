@@ -11,16 +11,12 @@
   -RESTfulAPI=FastAPI
   -Frontend=ReactJS
   -Backend=Python3
-    <ins>Creators</ins>
-      Jordan Cavlovic
-      
-      Alex Fust
-      
-      Andrew Garza
-      
-      Daniel Morales
-      
-      Blake Zigmond
+  <ins>Creators</ins>
+    Jordan Cavlovic
+    Alex Fust
+    Andrew Garza
+    Daniel Morales
+    Blake Zigmond
       
   
 **WORK IN PROGRESS**
