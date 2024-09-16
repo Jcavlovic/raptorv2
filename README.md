@@ -8,10 +8,10 @@ Version=2.0
   Backend=Python3
 
 Version 1.0:
-  RESTfulAPI=FastAPI
-  Frontend=ReactJS
-  Backend=Python3
-    Creators
+  -RESTfulAPI=FastAPI
+  -Frontend=ReactJS
+  -Backend=Python3
+    <ins>Creators</ins>
       Jordan Cavlovic
       Alex Fust
       Andrew Garza
