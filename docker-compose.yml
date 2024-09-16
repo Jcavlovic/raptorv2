@@ -1,0 +1,15 @@
+version: '3'
+services:
+  container1:
+    image: backend:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV_VAR=value
+
+  container2:
+    image: frontend:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - ENV_VAR=value
