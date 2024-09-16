@@ -1,10 +1,6 @@
 from fastapi import FastAPI, Request, Response, Depends
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse, FileResponse
-from fastapi.staticfiles import StaticFiles
-from fastapi.templating import Jinja2Templates
-from typing import List
 from pydantic import BaseModel
-import os
 from raptorv2.backend.detection.detection import foundObjectDir
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -13,9 +9,11 @@ class SwitchState(BaseModel):
     switch2 : bool
     switch3 : bool
 
-switch_states = {"switch1": False, "switch2": False, "switch3":False} 
-
-app = FastAPI()
+switch_states = {
+    "switch1": False, 
+    "switch2": False, 
+    "switch3":False
+    }
 
 origins = [
     "http://localhost:3000",
@@ -24,6 +22,7 @@ origins = [
     "192.168.1.23:3000"
 ]
 
+app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
@@ -33,15 +32,9 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
-# Define input model for toggle switch route
-class ToggleSwitch(BaseModel):
-    switch_id: int
-    state: bool
-
-
 @app.get("/", tags=["root"])
 async def read_root() -> dict:
-    return {"message": "Welcome to your todo list."}
+    return {"message": "Welcome to the raptor backend, please don't break me."}
 
 @app.get("/switches")
 async def get_switches():
@@ -54,5 +47,3 @@ async def set_switches(state: SwitchState):
     switch_states["switch3"] = state.switch3
     print(switch_states)
     return switch_states
-
-
