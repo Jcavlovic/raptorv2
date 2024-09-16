@@ -22,11 +22,11 @@ Version 2.0:
 
    **WORK IN PROGRESS**
    
-  a. Select different/custom models.
+    a. Select different/custom models.
   
-  b. Choose YouTube videos to run inference on.
+    b. Choose YouTube videos to run inference on.
   
-  c. Clickable found objects in video.
+    c. Clickable found objects in video.
   
 6. ~~Containerized with Docker~~
 7. Deploy to AWS
