@@ -1,9 +1,14 @@
 **WORK IN PROGRESS**
 
 **Raptor** Vision UTSA Senior Design
+
+
 <ins>Version=2.0</ins>
+
           RESTfulAPI=FastAPI
+          
           Frontend=ReactJS
+          
           Backend=Python3
 
 <ins>Version 1.0</ins>
