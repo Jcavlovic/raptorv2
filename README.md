@@ -5,9 +5,9 @@
 
 <ins>Version=2.0</ins>
 
-RESTfulAPI=FastAPI
+RESTfulAPI=FastAPI version=0.114.2
           
-Frontend=ReactJS
+Frontend=ReactJS version=18
           
 Backend=Python3.10
 
