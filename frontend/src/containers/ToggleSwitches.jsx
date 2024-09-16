@@ -6,19 +6,19 @@ const ToggleSwitches = () => {
     {
       id: 1,
       text: "Life Raft",
-      location: "src/containers/assets/Life_Raft2.png",
+      location: "/assets/Life_Raft.png",
       isChecked: false,
     },
     {
       id: 2,
       text: "Life Jacket",
-      location: "assets/Life_Jacket.png",
+      location: "/assets/Life_Jacket.png",
       isChecked: false,
     },
     {
       id: 3,
       text: "Life Ring",
-      location: "assets/Life_Ring.png",
+      location: "/assets/Life_Ring.png",
       isChecked: false,
     },
   ]);
@@ -71,7 +71,12 @@ const ToggleSwitch = ({ text, isChecked, onToggle, location }) => {
         <input type="checkbox" checked={isChecked} onChange={onToggle} />
         <span className="slider round" />
       </label>
-      <img src={location} className="toggleimages" onClick={onToggle} />
+      <img
+        src={location}
+        className="toggleimages"
+        onClick={onToggle}
+        alt={`${text}`}
+      />
     </div>
   );
 };
