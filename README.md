@@ -9,21 +9,21 @@ RESTfulAPI=FastAPI
           
 Frontend=ReactJS
           
-Backend=Python3
+Backend=Python3.10
 
 <ins>Version 1.0</ins>
 
-RESTfulAPI=FastAPI
+RESTfulAPI=FlaskAPI
 
-Frontend=ReactJS
+Frontend=Vanilla JavaScript
 
-Backend=Python3
+Backend=Python3.10
   
 **WORK IN PROGRESS**
 
 Version 2.0:
 1. ~~Migrated to FastAPI from FlaskAPI~~
-2. Migrated from Vanilla JS to ReactJS
+2. Migrated to ReactJS from Vanilla JS.
 3. Redesign UI Elements
 5. Added New Features
 
