@@ -5,11 +5,11 @@
 
 <ins>Version=2.0</ins>
 
-          RESTfulAPI=FastAPI
+RESTfulAPI=FastAPI
           
-          Frontend=ReactJS
+Frontend=ReactJS
           
-          Backend=Python3
+Backend=Python3
 
 <ins>Version 1.0</ins>
   RESTfulAPI=FastAPI
