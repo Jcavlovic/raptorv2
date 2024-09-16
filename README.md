@@ -32,3 +32,5 @@ Version 2.0:
 Redesigned by Jordan Cavlovic
 
 **WORK IN PROGRESS**
+
+https://github.com/Jcavlovic/raptorv2/blob/master/raptor%20preview.png
