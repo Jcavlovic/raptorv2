@@ -18,13 +18,16 @@ Version 2.0:
 1. ~~Migrated to FastAPI from FlaskAPI~~
 2. Migrated from Vanilla JS to ReactJS
 3. Redesign UI Elements
-4. Added New Features - Work in progress
+5. Added New Features - Work in progress
+
    **WORK IN PROGRESS**
+   
   a. Select different/custom models.
   b. Choose YouTube videos to run inference on.
   c. Clickable found objects in video.
-5. ~~Containerized with Docker~~
-6. Deploy to AWS
+  
+6. ~~Containerized with Docker~~
+7. Deploy to AWS
 
 Redesigned by Jordan Cavlovic
 
