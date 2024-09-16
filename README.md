@@ -27,6 +27,7 @@ Version 2.0:
   b. Choose YouTube videos to run inference on.
   
   c. Clickable found objects in video.
+  
 6. ~~Containerized with Docker~~
 7. Deploy to AWS
 
