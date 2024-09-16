@@ -18,21 +18,6 @@ RESTfulAPI=FastAPI
 Frontend=ReactJS
 
 Backend=Python3
-
-
-  
-<ins>Creators</ins>
-
- -Jordan Cavlovic
- 
- -Alex Fust
- 
- -Andrew Garza
- 
- -Daniel Morales
- 
- -Blake Zigmond
-      
   
 **WORK IN PROGRESS**
 
@@ -58,3 +43,17 @@ Redesigned by Jordan Cavlovic
 
 ![Alt text](https://github.com/Jcavlovic/raptorv2/blob/master/raptor%20preview.png?raw=true "Title")
 
+
+  
+<ins>Creators</ins>
+
+ -Jordan Cavlovic
+ 
+ -Alex Fust
+ 
+ -Andrew Garza
+ 
+ -Daniel Morales
+ 
+ -Blake Zigmond
+      
