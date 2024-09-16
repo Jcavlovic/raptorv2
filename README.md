@@ -1,3 +1,5 @@
+**WORK IN PROGRESS**
+
 Raptor Vision UTSA Senior Design
 -Version=2.0
 -RESTfulAPI=FastAPI
@@ -24,3 +26,5 @@ Version 2.0:
 6. Deploy to AWS
 
 Redesigned by Jordan Cavlovic
+
+**WORK IN PROGRESS**
