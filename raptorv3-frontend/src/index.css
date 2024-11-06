@@ -1,0 +1,15 @@
+@import "./landingpage/styles/MenuBar.css";
+@import "./raptorv2/styles/ToggleSwitches.css";
+@import "./raptorv2/styles/StatusBar.css";
+
+body {
+  background-image: url("/static/background.png");
+  background-color: #2196f3;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
