@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request, jsonify, send_from_directory
 from flask import Response
 from ultralytics import YOLO
-from raptor_sahi import Detect_Object, add_boxes, take_pic
+from raptor import Detect_Object, add_boxes, take_pic
 from collections import deque
 
 import shutil
